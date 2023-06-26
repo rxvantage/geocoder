@@ -1,0 +1,1 @@
+{"version":3,"file":"not-found.exception.js","sourceRoot":"","sources":["../../../src/exception/not-found.exception.ts"],"names":[],"mappings":";;;AAAA,6DAAyD;AAEzD,MAAa,iBAAkB,SAAQ,sCAAiB;CAAG;AAA3D,8CAA2D","sourcesContent":["import { GeocoderException } from './geocoder.exception';\n\nexport class NotFoundException extends GeocoderException {}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"map-quest-query.interface.js","sourceRoot":"","sources":["../../../../../src/provider/map-quest/interface/map-quest-query.interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface MapQuestQueryInterface {\n    /**\n     * A valid and authorized MapQuest API key.\n     */\n    key: string;\n}\n"]}

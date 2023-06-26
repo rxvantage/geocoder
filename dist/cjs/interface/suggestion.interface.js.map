@@ -1,0 +1,1 @@
+{"version":3,"file":"suggestion.interface.js","sourceRoot":"","sources":["../../../src/interface/suggestion.interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface SuggestionInterface<ProviderRawEntryType = any> {\n    formattedAddress: string;\n    placeId: string;\n    provider: string;\n    raw?: ProviderRawEntryType;\n}\n"]}

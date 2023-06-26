@@ -1,0 +1,1 @@
+{"version":3,"file":"world-country-state.interface.js","sourceRoot":"","sources":["../../../../src/util/world-country-state/world-country-state.interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface WorldCountryStateInterface {\n    countryCode: string;\n    stateCode: string;\n    name: string;\n}\n"]}

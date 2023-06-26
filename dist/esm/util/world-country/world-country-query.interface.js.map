@@ -1,0 +1,1 @@
+{"version":3,"file":"world-country-query.interface.js","sourceRoot":"","sources":["../../../../src/util/world-country/world-country-query.interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface WorldCountryQueryInterface {\n    name?: string;\n    cca2?: string;\n    cca3?: string;\n    ccn3?: string | number;\n}\n"]}

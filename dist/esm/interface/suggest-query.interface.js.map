@@ -1,0 +1,1 @@
+{"version":3,"file":"suggest-query.interface.js","sourceRoot":"","sources":["../../../src/interface/suggest-query.interface.ts"],"names":[],"mappings":"","sourcesContent":["import type { GeocodeQueryInterface } from './geocode-query.interface';\n\nexport interface SuggestQueryInterface extends GeocodeQueryInterface {}\n"]}

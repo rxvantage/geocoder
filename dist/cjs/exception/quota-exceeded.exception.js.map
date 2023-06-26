@@ -1,0 +1,1 @@
+{"version":3,"file":"quota-exceeded.exception.js","sourceRoot":"","sources":["../../../src/exception/quota-exceeded.exception.ts"],"names":[],"mappings":";;;AAAA,6DAAyD;AAEzD,MAAa,sBAAuB,SAAQ,sCAAiB;CAAG;AAAhE,wDAAgE","sourcesContent":["import { GeocoderException } from './geocoder.exception';\n\nexport class QuotaExceededException extends GeocoderException {}\n"]}

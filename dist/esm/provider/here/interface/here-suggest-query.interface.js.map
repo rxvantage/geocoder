@@ -1,0 +1,1 @@
+{"version":3,"file":"here-suggest-query.interface.js","sourceRoot":"","sources":["../../../../../src/provider/here/interface/here-suggest-query.interface.ts"],"names":[],"mappings":"","sourcesContent":["import type { HereGeocodeQueryInterface } from './here-geocode-query.interface';\n\nexport interface HereSuggestQueryInterface extends HereGeocodeQueryInterface {}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"arcgis-suggestion.interface.js","sourceRoot":"","sources":["../../../../../src/provider/arcgis/interface/arcgis-suggestion.interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface ArcgisSuggestionInterface {\n    text: string;\n    magicKey: string;\n    isCollection: boolean;\n}\n"]}

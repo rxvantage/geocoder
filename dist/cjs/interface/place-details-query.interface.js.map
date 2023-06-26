@@ -1,0 +1,1 @@
+{"version":3,"file":"place-details-query.interface.js","sourceRoot":"","sources":["../../../src/interface/place-details-query.interface.ts"],"names":[],"mappings":"","sourcesContent":["import type { QueryInterface } from './query.interface';\n\nexport interface PlaceDetailsQueryInterface extends QueryInterface {\n    placeId: string;\n}\n"]}

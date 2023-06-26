@@ -1,0 +1,1 @@
+{"version":3,"file":"reverse-query.interface.js","sourceRoot":"","sources":["../../../src/interface/reverse-query.interface.ts"],"names":[],"mappings":"","sourcesContent":["import type { QueryInterface } from './query.interface';\n\nexport interface ReverseQueryInterface extends QueryInterface {\n    lat: number;\n    lon: number;\n}\n"]}
