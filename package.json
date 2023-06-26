@@ -1,16 +1,16 @@
 {
-    "name": "@goparrot/geocoder",
+    "name": "@rxvantage/geocoder",
     "description": "TypeScript GeoCoder, node geocoding library, supports google maps, mapquest, here, open street map, tom tom",
-    "version": "4.4.0",
+    "version": "4.4.1-dev.2",
     "author": "Coroliov Oleg",
     "license": "MIT",
     "private": false,
     "bugs": {
-        "url": "https://github.com/goparrot/geocoder/issues"
+        "url": "https://github.com/rxvantage/geocoder/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/goparrot/geocoder.git"
+        "url": "https://github.com/rxvantage/geocoder.git"
     },
     "keywords": [
         "node",
@@ -74,7 +74,7 @@
         "lint": "npm run lint:base -- './**/**.{ts,tsx,js,json}'",
         "lint:base": "npm run lint:config:check && eslint",
         "lint:config:check": "eslint-config-prettier src/index.ts",
-        "build:dist": "rimraf dist/* && run-p build:dist:cjs build:dist:esm build:dist:types",
+        "build:dist": "npm run build:dist:cjs && npm run build:dist:esm && npm run build:dist:types",
         "build:dist:cjs": "tsc -b tsconfig.build-cjs.json",
         "build:dist:esm": "tsc -b tsconfig.build-esm.json",
         "build:dist:types": "tsc -b tsconfig.build-types.json",
